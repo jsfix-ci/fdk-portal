@@ -26,6 +26,7 @@ import eventTypesSaga from '../components/with-event-types/redux/saga';
 import communitySaga from '../components/with-community/redux/saga';
 import datasetPreviewSaga from '../components/with-dataset-preview/redux/saga';
 import suggestionsSaga from '../components/with-suggestions/redux/saga';
+import feedbackSaga from '../components/with-feedback/redux/saga';
 
 export default function* saga() {
   yield all([
@@ -54,6 +55,7 @@ export default function* saga() {
     eventTypesSaga(),
     communitySaga(),
     datasetPreviewSaga(),
-    suggestionsSaga()
+    suggestionsSaga(),
+    feedbackSaga()
   ]);
 }
