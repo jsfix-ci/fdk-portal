@@ -79,7 +79,7 @@
     "@reduxjs/toolkit": "^1.8.0",
     "@types/react-document-meta": "^3.0.2",
     "apexcharts": "^3.33.2",
-    "axios": "^0.25.0",
+    "axios": "^1.2.1",
     "bootstrap": "^4.6.1",
     "buffer": "^6.0.3",
     "caniuse-lite": "^1.0.30001400",
